@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF=8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="midasi">
+<h1>プログラム復習コンテンツ</h1>
+<a href="https://o-saringu.github.io/mokuji/">
+<div class="home"></div>
+</a>
+</div>
+
+<div class="oomidasi"><p>rotate()関数</div>
+
+<div class="yoko">
+	<div class="yoko1">
+	<div class="komidasi1"><p>サンプルコードの結果</p></div>
+	<img src = "6-2.png">
+	</div>
+	<div class="yoko1">
+	<div class="komidasi2"><p>サンプルコード</div>
+<div class="code">
+	<p>　　	float angle=0;
+	<p>　　	
+	<p>　　	void setup(){
+	<p>　　	　size(120, 120); 
+	<p>　　	｝
+	<p>　　	
+	<p>　　	void draw(){
+	<p>　　	　translate(mouseX, mouseY);
+	<p>　　	　rotate(angle);
+	<p>　　	　rect(-15, -15, 30, 30);
+	<p>　　	　angle+=0.1;
+	<p>　　	}　
+	</div>
+	</div>
+</div>
+
+<div class="komidasi3"><p>説明文</div>
+<div class="ep">
+	<p>　rotare()関数は座標系を回転させる関数。
+	<p>　パラメータは1つのみで回転角を用いる。
+	<p>　図形を回転させたい時はrotate()関数で回転角を指定した後に図形を描く。
+	<p>　例では、図形の中心を軸に回転させている。
+	<p>　また回転角は、draw()が実行されるたびに0.1ずつ増えているため回転し続ける図形を描くことができる。
+
+</div>
+</body>
+
